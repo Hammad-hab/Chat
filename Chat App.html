@@ -57,7 +57,7 @@
      
         $("#Send").click(function () {
          $.ajax({
-                url: 'https://github.com/Hammad-hab/Chat/Php.php',
+                url: 'https://localhost/Php.php',
                 data: { 'Mess': $("#Message").val(), 'client': $("#User").val()},
                 type: 'POST',
                 success: function (data) {
